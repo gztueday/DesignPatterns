@@ -23,23 +23,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bd3f28c2-5c05-45ba-b13d-edfcf255266f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__asm_asm_all_3_3_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__asm_asm_all_3_3_1.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__cglib_cglib_3_2_12.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__cglib_cglib_3_2_12.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_aspectj_aspectjweaver_1_9_4.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_aspectj_aspectjweaver_1_9_4.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_ow2_asm_asm_7_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_ow2_asm_asm_7_1.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aop_5_1_6_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aop_5_1_6_RELEASE.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_beans_5_1_6_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_beans_5_1_6_RELEASE.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_5_1_6_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_5_1_6_RELEASE.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_core_5_1_6_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_core_5_1_6_RELEASE.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_expression_5_1_6_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_expression_5_1_6_RELEASE.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jcl_5_1_6_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jcl_5_1_6_RELEASE.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/DesignPatterns.iml" beforeDir="false" afterPath="$PROJECT_DIR$/DesignPatterns.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/mashibing/dp/visitor/Computer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mashibing/dp/visitor/Computer.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -74,12 +61,6 @@
       </MavenGeneralSettings>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="242" />
-    <option name="y" value="4" />
-    <option name="width" value="1695" />
-    <option name="height" value="1023" />
-  </component>
   <component name="ProjectId" id="1jEx0Mw8SvHm0HqsTIcPAavJOK7" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -95,6 +76,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/pom.xml" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -128,13 +110,13 @@
       <command value="bytecode " />
     </option>
   </component>
-  <component name="RunManager" selected="Application.Computer">
-    <configuration name="Computer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.mashibing.dp.visitor.Computer" />
+  <component name="RunManager" selected="Application.ClassPrinter">
+    <configuration name="ClassPrinter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.mashibing.dp.ASM.ClassPrinter" />
       <module name="DesignPatterns" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.mashibing.dp.visitor.*" />
+          <option name="PATTERN" value="com.mashibing.dp.ASM.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -142,12 +124,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.mashibing.dp.command.Main" />
+    <configuration name="Computer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.mashibing.dp.visitor.Computer" />
       <module name="DesignPatterns" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.mashibing.dp.command.*" />
+          <option name="PATTERN" value="com.mashibing.dp.visitor.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -233,11 +215,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ClassPrinter" />
         <item itemvalue="Application.Computer" />
         <item itemvalue="Application.Test (3)" />
         <item itemvalue="Application.Test (1)" />
         <item itemvalue="Application.Test" />
-        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -253,7 +235,7 @@
       <option name="presentableId" value="Default" />
       <updated>1556253030883</updated>
       <workItem from="1603382829100" duration="126000" />
-      <workItem from="1603383302364" duration="669000" />
+      <workItem from="1603383302364" duration="2124000" />
     </task>
     <task id="LOCAL-00001" summary="设计模式之责任链，代码写到60%，请大家自己根据视频尝试完成com.mashibing.dp.cor.servlet包下面的servletFilter的写法">
       <created>1556285498852</created>
@@ -340,6 +322,14 @@
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
     <state x="768" y="301" key="SettingsEditor/0.0.2560.1440@0.0.2560.1440" timestamp="1603460936692" />
+    <state width="2086" height="1440" key="com.intellij.byteCodeViewer.ShowByteCodeAction" timestamp="1603462774010">
+      <screen x="0" y="0" width="2560" height="1440" />
+    </state>
+    <state width="2086" height="1440" key="com.intellij.byteCodeViewer.ShowByteCodeAction/0.0.2560.1440@0.0.2560.1440" timestamp="1603462774010" />
+    <state x="945" y="348" width="670" height="676" key="search.everywhere.popup" timestamp="1603469941876">
+      <screen x="0" y="23" width="2560" height="1417" />
+    </state>
+    <state x="945" y="348" width="670" height="676" key="search.everywhere.popup/0.23.2560.1417@0.23.2560.1417" timestamp="1603469941876" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
