@@ -1,5 +1,8 @@
 package com.mashibing.dp.visitor;
 
+/**
+ * visitor:逻辑都是写在visitor上，这里的computer就相当于一个名词库，不同的visitor用这个名词库算出不同的唯独，即通过不同的纬度进行分析，一个visitor一个纬度进行分析
+ */
 public class Computer {
     ComputerPart cpu = new CPU();
     ComputerPart memory = new Memory();
